@@ -76,38 +76,49 @@
                     <!-- MESSAGES -->
 
                 </ul>
+                <div class="page-title">                    
+                    <h2><span class="fa fa-envelope"></span> Contact Form</h2>
+                </div>                
                 <div class="page-content-wrap">
                     <div class="row">
-                        <div class="col-md-12">                        
+                        <div class="col-md-4">
 
-                            <div class="panel panel-default">
-                                <div class="panel-heading">                                
-                                    <h3 class="panel-title"><span class="fa fa-file-text"></span> Survey Form Results</h3>
-                                    <ul class="panel-controls">
-                                        <li><a href="#" class="panel-collapse"><span class="fa fa-angle-down"></span></a></li>
-                                        <li><a href="#" class="panel-refresh"><span class="fa fa-refresh"></span></a></li>
-                                        <li><a href="#" class="panel-remove"><span class="fa fa-times"></span></a></li>
-                                    </ul>                                
-                                </div>
+                            <div class="panel panel-primary">
                                 <div class="panel-body">
-                                    <table class="table datatable">
-                                        <thead>
-                                            <tr>
-                                                <th>First Name</th>
-                                                <th>Last Name</th>
-                                                <th>Gender</th>
-                                                <th>Country</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>John</td>
-                                                <td>Doe</td>
-                                                <td>Male</td>
-                                                <td>Philippines</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
+                                    <h2>Contact</h2>
+                                    <p>Feel free to contact us. We are willing to help you with any issues you may encounter with our products.</p>
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" class="form-control" placeholder="John Smith"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="email" class="form-control" placeholder="jonathan.smith@john.com"/>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Subject</label>
+                                        <input type="text" class="form-control" placeholder="Project Inquiry"/>
+                                    </div>
+                                    <label>Budget</label>
+                                    <div class="form-group">
+                                        <div class="col-md-12">                                        
+                                            <select class="form-control select">
+                                                <option>Choose Budget</option>
+                                                <option value="value1">$1000 - $2000</option>
+                                                <option value="value2">$3000 - $4000</option>
+                                                <option value="value3">$5000 - $6000</option>
+                                                <option value="value4">$7000 - $8000</option>
+                                            </select>
+                                        </div>
+                                    </div>   
+                                    <br>                             
+                                    <div class="form-group">
+                                        <label>Message</label>
+                                        <textarea class="form-control" placeholder="Your message" rows="3"></textarea>
+                                    </div>                                
+                                </div>
+                                <div class="panel-footer"> 
+                                    <button class="btn btn-info pull-right">Send</button>
                                 </div>
                             </div>
 
@@ -141,14 +152,22 @@
                 </div>
             </div>
         </div>
+        <!-- END MESSAGE BOX-->
+
+        <!-- START PRELOADS -->
         <audio id="audio-alert" src="audio/alert.mp3" preload="auto"></audio>
         <audio id="audio-fail" src="audio/fail.mp3" preload="auto"></audio>
         <script type="text/javascript" src="js/plugins/jquery/jquery.min.js"></script>
         <script type="text/javascript" src="js/plugins/jquery/jquery-ui.min.js"></script>
-        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>        
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap.min.js"></script>                
         <script type='text/javascript' src='js/plugins/icheck/icheck.min.js'></script>
         <script type="text/javascript" src="js/plugins/mcustomscrollbar/jquery.mCustomScrollbar.min.js"></script>
-        <script type="text/javascript" src="js/plugins/datatables/jquery.dataTables.min.js"></script>    
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-datepicker.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-timepicker.min.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-colorpicker.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-file-input.js"></script>
+        <script type="text/javascript" src="js/plugins/bootstrap/bootstrap-select.js"></script>
+        <script type="text/javascript" src="js/plugins/tagsinput/jquery.tagsinput.min.js"></script>
         <script type="text/javascript" src="js/plugins.js"></script>        
         <script type="text/javascript" src="js/actions.js"></script>        
     </body>
